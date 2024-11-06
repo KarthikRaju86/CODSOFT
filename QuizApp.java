@@ -4,14 +4,14 @@ import java.util.TimerTask;
 
 public class QuizApplication {
     private static final String[][] QUESTIONS = {
-        {"What is the capital of France?", "A) Berlin", "B) Madrid", "C) Paris", "D) Rome"},
+        {"Which of the following is a programming language?", "A) Python", "B) Pastry", "C) Remote", "D) Paris"},
         {"Which planet is known as the Red Planet?", "A) Earth", "B) Venus", "C) Mars", "D) Jupiter"},
         {"What is the largest ocean on Earth?", "A) Atlantic", "B) Indian", "C) Arctic", "D) Pacific"},
-        {"What is 5 + 7?", "A) 10", "B) 11", "C) 12", "D) 13"},
+        {"Who wrote the play Romeo and Juliet?", "A) Charles Dickens", "B) William Shakespeare", "C) Jane Will", "D) Augustin Mark"},
         {"What is the chemical symbol for water?", "A) H2O", "B) O2", "C) CO2", "D) N2"}
     };
 
-    private static final char[] ANSWERS = {'C', 'C', 'D', 'C', 'A'};
+    private static final char[] ANSWERS = {'A', 'C', 'D', 'B', 'A'};
     private static final int TIMER_SECONDS = 10;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
